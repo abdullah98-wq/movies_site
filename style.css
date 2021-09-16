@@ -1,0 +1,88 @@
+
+body{
+  background-color: #000000f2;
+
+}
+
+
+.side-bar{
+    position: fixed;
+    top: 0px;
+    left: -220px;
+    background-color: #000000f2;
+
+    width:220px;
+    height: 100vh;
+    background-color: #000000f2;
+
+    z-index: 999;
+  
+  }
+.items-nav{
+    
+    float: left;
+    padding: 1rem 0.5rem;
+    display: none;
+    
+  }
+  .myside{
+    padding: 20px;
+
+     cursor: pointer;
+}
+.opn-cls{
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color:white;
+  opacity: 1;
+  width:70px;
+  height: 100vh;
+  z-index: 999;
+
+}
+.h3{
+  margin-left:9rem ;
+}
+.toggel-menu{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.social-icon{
+  position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11
+}
+
+
+.share-icon{
+position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 11
+}
+.posts{
+  position: relative;
+}
+.item-layer{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  transform: translateY(10px);
+  transition: transform 0.6s, opacity 0.6s;
+  background-color: rgba(249, 253, 253, 0.9);
+  opacity: 0;
+  overflow: hidden;
+}
+.posts :hover.item-layer{
+ transform: translateY(0px);
+ opacity: 1;
+}
